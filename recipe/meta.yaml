@@ -12,7 +12,7 @@ source:
     - Makefile.patch # [not win]
     - lmdb_45a88275d2a410e683bae4ef44881e0f55fa3c4d.patch # [win]
 build:
-  number: 1
+  number: 2
   features:
     - vc9  # [win and py27]
     - vc10 # [win and py34]
